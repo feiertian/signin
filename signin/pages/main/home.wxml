@@ -1,0 +1,21 @@
+
+<import src="main.wxml"/>
+<view class="home"> 
+    <view class="naviBar">
+        <navigator url="./add">add</navigator>
+    </view>
+    <button id="btn" class="sort" bindtap="sort" >排序</button>
+    <scroll-view class="scroll" scroll-y="true">
+    <image class="ad" wx:if="{{wrapper_url.length > 0}}" src="{{wrapper_url}}"></image>
+        <block wx:for="{{results}}" wx:for-item="item" wx:key="*this">
+            <view class="itemv">
+                <image class="image" src="{{item.url}}"></image>
+                <text class="name">{{item.name}}</text>
+                <text id="text" wx:if="{{item.num > 0}}">签到人数：</text>
+                <text id="text" wx:if="{{item.num > 0}}">{{item.num}}</text>
+            </view>
+        </block>
+    <button class="show" bindtap="showdata" >刷新</button>
+    </scroll-view>
+   <template is="tem" class="navibar" data=""/>
+</view>

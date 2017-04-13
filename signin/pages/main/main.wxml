@@ -1,0 +1,8 @@
+<!--pages/main/main.wxml-->
+<template name="tem">
+    <view class="navi">
+        <button id="navi" class="main_h"  bindtap="clickH" plain="true">主页</button>
+        <button id="navi" class="main_ad" bindtap="clickIn" plain="true">+</button>
+        <button id="navi" class="main_p" bindtap="clickMe" plain="true">我</button>
+    </view>
+</template >

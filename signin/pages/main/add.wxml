@@ -1,0 +1,13 @@
+
+<!--pages/main/add.wxml-->
+<view class="add">
+
+  <!--<label>标题</label>-->
+
+  <!--<label>内容</label>-->
+  <input bindinput="titleCommit" placeholder="文章标题" class="titleIn">{{data.title}}</input>
+  <form bindsubmit="commit">
+    <textarea placeholder="文章内容" class="content" name="content">{{data.content}}</textarea>
+    <button form-type="submit">提交</button>
+  </form>
+</view>

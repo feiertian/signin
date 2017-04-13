@@ -1,0 +1,22 @@
+/* pages/main/main.wxss */
+.navi{
+    background-color: white;
+    width: 90%;
+    height: 120rpx;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row
+}
+.main_h{
+    margin-left: 5%;
+}
+.main_p{
+    margin-right: 5%
+}
+#navi{
+    border: 0;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}

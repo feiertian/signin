@@ -1,0 +1,19 @@
+/* pages/main/add.wxss */
+
+.add {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleIn {
+  border: 1rpx;
+  margin-bottom: 100rpx;
+  text-align: center;
+}
+
+.content {
+  border: 3rpx;
+}
