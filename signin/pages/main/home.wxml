@@ -1,9 +1,6 @@
 
 <import src="main.wxml"/>
 <view class="home"> 
-    <view class="naviBar">
-        <navigator url="./add">add</navigator>
-    </view>
     <button id="btn" class="sort" bindtap="sort" >排序</button>
     <scroll-view class="scroll" scroll-y="true">
     <image class="ad" wx:if="{{wrapper_url.length > 0}}" src="{{wrapper_url}}"></image>

@@ -1,0 +1,18 @@
+<!--pages/view/homepage/homePage.wxml-->
+<scroll-view class="scroll">
+<view class="title"></view>
+<view class="content">
+    <view class="motto">
+        <text class="mottoTitle">{{motto}}</text>
+    </view>
+    <text style="margin-left:20rpx;margin-bottom:20rpx;font-size:24rpx ">打卡排行></text>
+    <view class="groups">
+        <view class="group" wx:for="{{groups}}" wx:for-index="idx" wx:for-item="group" data-idx="{{idx}}" bindtap="itemClick">
+            <image src="{{group.url}}" class="avatarView"></image>
+            <text class="groupName">{{group.name}}</text>
+            <text id="msg" class="signNum">签到人数：{{group.signNum}}</text>
+            <text id="msg" class="likeNum">💗 {{group.likeNum}}</text>
+         </view>
+    </view>
+</view>
+</scroll-view>

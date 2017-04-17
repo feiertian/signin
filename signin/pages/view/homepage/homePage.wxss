@@ -1,0 +1,57 @@
+/* pages/view/homepage/homePage.wxss */
+page{
+    background-color: #f0f0f0;
+}
+.content {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.motto{
+    height: 100rpx;
+    margin: 20rpx auto;
+    border-width: 1rpx;
+}
+
+.mottoTitle{
+    font-size: 50rpx;
+    color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.group{
+    width: 90%;
+    margin: 10rpx auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatarView{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+}
+
+.groupName{
+    margin: auto 10rpx;
+    text-align: center
+}
+
+#msg{
+    position: relative;
+    color: #808080;
+    font-size: 24rpx;
+    margin-left: 20rpx;
+}
+
+.signNum{
+    top:55rpx;
+}
+
+.likeNum{
+    top:45rpx;
+}

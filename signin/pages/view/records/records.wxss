@@ -1,0 +1,13 @@
+/* pages/view/records/records.wxss */
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+.record{
+    height: 80rpx;
+    padding-left: 20rpx;
+}
+.title{
+    text-align: left;
+    margin: 0 auto;
+}

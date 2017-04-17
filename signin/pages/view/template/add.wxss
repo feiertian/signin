@@ -1,0 +1,26 @@
+.add{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 36rpx;
+    width: 90%;
+    margin: 30px auto 100rpx;
+    border-style: solid;
+    border-radius: 1rpx;
+    border-color: #808080;
+    border-width: 0 0 1rpx 0;
+}
+.desc{
+    text-align: left;
+    font-size: 32rpx;
+    margin: 10rpx auto;
+    border-style: dotted;
+    border-radius: 1rpx;
+    border-width: 2rpx;
+}
+.btn{
+    margin: 340rpx auto;
+    width: 300rpx;
+}

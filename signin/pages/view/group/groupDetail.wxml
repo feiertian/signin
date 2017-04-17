@@ -1,0 +1,19 @@
+<!--pages/view/group/groupDetail.wxml-->
+<!--<text>pages/view/group/groupDetail.wxml</text>-->
+<scroll-view class="scroll">
+<view class="content">
+    <text class="title"> 《{{groupName}}组》打卡情况</text>
+     <text class="signtext">今日已打卡:</text>
+    <view class="member" wx:for="{{signInMembers}}" wx:for-item="member" wx:for-index="id" data-id="{{id}}">
+    <view class="personal">
+        <image src="{{member.url}}" class="img"></image>
+        <text class="name">{{member.name}}</text>
+    </view>
+    <text class="essayTitle">{{member.title}}</text>
+    </view>
+    <text class="unsigntext">今日未打卡:</text>
+    <view class="unsignmemberView">
+        <text class="unsignMem" wx:for="{{unSignInMembers}}" wx:for-item="member">{{member.name}}, </text>
+    </view>
+</view>
+</scroll-view>

@@ -1,0 +1,7 @@
+<!--pages/view/records/records.wxml-->
+<!--<text>pages/view/records/records.wxml</text>-->
+<scroll-view class="content">
+<view class="record" wx:for="{{records}}" wx:for-item="rr" wx:for-id="idx" data-id="{{idx}}"   bindtap="recordTap" bindlongtap="recordDelTap">
+    <text class="title">{{rr}}</text>
+</view>
+</scroll-view>

@@ -1,0 +1,76 @@
+/* pages/view/group/groupDetail.wxss */
+.content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 36rpx;
+    line-height: 30rpx;
+    margin-bottom: 40rpx;
+    margin-top: 20rpx;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10rpx;
+    border-style: solid; 
+    border-color: #f0f0f0;
+    border-width: 0rpx 0 0 0; 
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 80rpx;
+    height: 80rpx;
+    text-align: center;
+    border-radius: 40rpx; 
+}
+
+.name{
+    font-size: 24rpx;
+    color: #636363;
+    text-align: center;
+    margin: 5rpx auto;
+}
+
+.essayTitle{
+    margin: 35rpx 20rpx auto 20rpx;
+    color: #808080;
+}
+
+.unsignmemberView{
+    display: table-row;
+    flex-direction: row;
+    width: 90%;
+    margin: 20rpx auto;
+}
+
+.unsignMem{
+    margin: 10rpx;
+    text-align: center;
+    color: #808080;
+    /*border-style: solid;*/
+    /*border-color: #808080;*/
+    /*border-width: 1rpx;*/
+    /*border-radius: 4rpx;*/
+}
+
+.unsigntext{
+    margin: 30rpx auto 10rpx 20rpx;
+    font-size: 32rpx;
+}
+
+.signtext{
+    margin: 20rpx auto 20rpx 20rpx;
+    font-size: 32rpx;
+}

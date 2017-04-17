@@ -1,0 +1,3 @@
+<!--pages/view/newgroup/newgroup.wxml-->
+<import src="../template/add.wxml"/>
+<template is="add" data="{{config}}"></template>

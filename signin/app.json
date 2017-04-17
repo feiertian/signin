@@ -1,5 +1,12 @@
 {
   "pages":[
+    "pages/view/records/records",
+    "pages/view/me/me",
+    "pages/view/newgroup/newgroup",
+     "pages/view/sign/sign",
+    "pages/view/group/groupDetail",
+    "pages/view/homepage/homePage",
+   
     "pages/index/index",
     "pages/logs/logs",
     "pages/main/home",

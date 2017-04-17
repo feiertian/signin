@@ -1,0 +1,12 @@
+<!--pages/view/me/me.wxml-->
+<view class="me">
+    <view class="personal">
+        <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="nick">{{userInfo.nickName}}</text>
+    </view>
+    <text class="groupid" bindtap="groupTap">{{groupId}}</text>
+    <view class="records" bindtap="recordTap">
+        <text class="title">签到记录</text>
+        <text class="subtitle">共 {{recordCount}}篇</text>
+    </view>
+</view>
